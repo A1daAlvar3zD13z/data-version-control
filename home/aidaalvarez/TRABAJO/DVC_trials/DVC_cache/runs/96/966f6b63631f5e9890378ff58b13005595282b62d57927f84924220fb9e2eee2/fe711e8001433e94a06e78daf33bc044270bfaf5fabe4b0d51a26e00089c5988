@@ -1,0 +1,20 @@
+cmd: python src/prepare.py
+deps:
+- path: data/raw
+  hash: md5
+  md5: 1a1afce5e1509cad31bc393763559719.dir
+  size: 106557162
+  nfiles: 13396
+- path: src/prepare.py
+  hash: md5
+  md5: ef804f358e00edcfe52c865b471f8f55
+  size: 1231
+outs:
+- path: data/prepared/test.csv
+  hash: md5
+  md5: 236628a6c9feed1c476b74beada299ca
+  size: 91216
+- path: data/prepared/train.csv
+  hash: md5
+  md5: cf38063c2cb0ca0bb5117ceacf7ef730
+  size: 225835

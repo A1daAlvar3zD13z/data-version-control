@@ -1,0 +1,6 @@
+[core]
+    remote = remote_storage
+[cache]
+    dir = ../home/aidaalvarez/TRABAJO/DVC_trials/DVC_cache
+['remote "remote_storage"']
+    url = ../home/aidaalvarez/TRABAJO/DVC_trials/DVC_remote

@@ -1,0 +1,19 @@
+cmd: python src/evaluate.py
+deps:
+- path: data/prepared/test.csv
+  hash: md5
+  md5: 236628a6c9feed1c476b74beada299ca
+  size: 91216
+- path: model/model.joblib
+  hash: md5
+  md5: a16b17cba73d22f9a5045380a7331f99
+  size: 1853017
+- path: src/evaluate.py
+  hash: md5
+  md5: b197277667d6269271fff4ae4af8a941
+  size: 645
+outs:
+- path: metrics/accuracy.json
+  hash: md5
+  md5: 6fc3100ccb6e799bf6ea6a21eb6dc1e1
+  size: 32
